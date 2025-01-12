@@ -130,7 +130,7 @@ header h3 a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   flex: 1 1 auto;
-  margin: 15px 30px;
+  margin: 30px 30px;
 }
 
 .project-wrapper {
@@ -222,4 +222,34 @@ header h3 a:hover {
 .project-detail-section img {
   width: 100%;
   margin-bottom: 3px
+}
+
+
+/* lightbox  */
+.fslightbox-nav .fslightbox-toolbar {
+  background: none;
+}
+
+.fslightbox-slide-btn-container .fslightbox-slide-btn {
+  background: none;
+}
+
+.fslightbox-toolbar-button:first-child {
+  visibility: hidden;
+}
+
+.fslightbox-container {
+  background: linear-gradient(#ffffff, rgb(255 255 255 / 90%) 10%) !important;
+}
+
+.fslightbox-svg-path {
+  fill: #54052a !important;
+}
+
+.fslightbox-slash {
+  background-color: #54052a !important;
+}
+
+.fslightbox-slide-number-container {
+  color: #54052a !important;
 }
