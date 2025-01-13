@@ -253,3 +253,7 @@ header h3 a:hover {
 .fslightbox-slide-number-container {
   color: #54052a !important;
 }
+
+.bw {
+  filter: grayscale(1)
+}
