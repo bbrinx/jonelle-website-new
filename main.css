@@ -131,7 +131,7 @@ header h3 a:hover {
 .projects-section-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  flex: 1 1 auto;
+  flex: 1 1 auto
   margin: 30px 30px;
 }
 
