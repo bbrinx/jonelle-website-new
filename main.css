@@ -19,6 +19,7 @@ a:hover {
   text-decoration: underline;
   cursor: crosshair;
   caret-color: #54052a;
+  text-decoration-color: #54052a;
 }
 
 @font-face {
@@ -70,7 +71,7 @@ header a h3 {
   margin: 0;
 }
 
-header h3 a:hover {
+header a:first-child {
   text-decoration: none;
 }
 
