@@ -44,35 +44,34 @@ header {
   flex: 0 1 auto;
   align-items: flex-end;
   padding-top: 15px;
-}
+  font-size: 36px;
 
-header .menu {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
-header .menu a {
-  padding-right: 20px;
-  color: #54052a;
-  font-family: "Anuphan", serif;
-  margin: 0;
-  font-size: 18px;
-}
+  a {
+    padding-right: 20px;
+    color: #54052a;
+    font-family: "Anuphan", serif;
+    margin: 0;
 
-header .menu a:last-child {
-  padding-right: 0px;
-}
+    &:first-child {
+      text-decoration: none;
+    }
 
-header a h3 {
-  font-family: "Baskervville", serif;
-  font-size: 18px;
-  color: #54052a;
-  margin: 0;
-}
+    &:last-child {
+      padding-right: 0px;
+    }
 
-header a:first-child {
-  text-decoration: none;
+    h3 {
+      font-family: "Baskervville", serif;
+      color: #54052a;
+      margin: 0;
+    }
+  }
 }
 
 /* grid styling */
@@ -88,7 +87,7 @@ header a:first-child {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 36px;
     font-family: "Baskervville", serif;
     color: #ffffffd1;
     opacity: 0.95;
@@ -208,6 +207,16 @@ header a:first-child {
 
 /* Medium devices such as tablets (1024px or lesser) */
 @media only screen and (min-width: 1024px) {
+
+  header {
+    font-size: 18px;
+  }
+
+  .section-wrapper {
+    h2 {
+      font-size: 18px
+    }
+  }
 
   /* homepage customization */
   .section-wrapper.categories {
