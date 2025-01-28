@@ -66,7 +66,7 @@ header .menu a:last-child {
 
 header a h3 {
   font-family: "Baskervville", serif;
-  font-size: 32px;
+  font-size: 18px;
   color: #54052a;
   margin: 0;
 }
@@ -88,9 +88,9 @@ header a:first-child {
   }
 
   h2 {
-    font-size: 32px;
+    font-size: 18px;
     font-family: "Baskervville", serif;
-    color: #efeff0;
+    color: #ffffffd1;
     opacity: 0.95;
     position: absolute;
     top: 50%;
@@ -141,6 +141,10 @@ header a:first-child {
   margin: 0;
   margin-bottom: 15px;
   text-align: center;
+}
+
+.section.about .project-description {
+  background-color: transparent;
 }
 
 .project-description-title,
